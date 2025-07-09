@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Created by Omar Manaa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="Register-box">
+        <h1>Register</h1>
+        <h4>Create your account for free</h4>
+        <form id="registerForm">
+            <label for="username">
+                <i class="fa-solid fa-user"></i>
+            </label>
+            <input type="text" id="username" placeholder="Username" required>
+            <label for="email">
+                <span>@</span>
+            </label>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <label for="Password">
+                <i class="fa-solid fa-lock"></i>
+            </label>
+            <input type="password" id="password" placeholder="Password" required>
+            <label for="confirmPassword"><i class="fa-solid fa-lock"></i></label>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <p id="error-message"></p>
+            <br><br><button type="submit">Register!</button>
+        </form>
+        <br>
+        <input type="checkbox" id="checkBox">I agree the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy.</a></p>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

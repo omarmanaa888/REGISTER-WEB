@@ -1,0 +1,76 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    background-image: url('pexels-nout-gons-80280-248159.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Register-box {
+    background: rgba(255, 255, 255, 0.1);       
+    backdrop-filter: blur(12px);    /* blur effect*/
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+}
+
+.Register-box h1 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.Register-box h4 {
+    text-align: center;
+}
+
+.Register-box  input {
+  width: 91%;
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid;
+}
+
+.Register-box button {
+  width: 100%;
+  padding: 10px;
+  background: #170a00;
+  color: rgba(245, 245, 245, 0.967);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #5d3702, 
+     0 0 25px #5d3702,  0 0 50px #5d3702;
+  transition: 0.2s;   
+}
+
+.Register-box button:hover {
+  box-shadow: 0 0 5px #5d3702,
+    0 0 25px #5d3702, 0 0 50px #5d3702
+  , 0 0 100px #d18110, 0 0 250px #844e03;
+}
+#checkBox {
+    width: 10%;
+}
+
+a {
+    color: rgb(218, 163, 121);
+}
+
+::placeholder {
+    color: #000000;
+}
+
+#error-message {
+  color: red;
+
+  margin-top: 10px;
+}
